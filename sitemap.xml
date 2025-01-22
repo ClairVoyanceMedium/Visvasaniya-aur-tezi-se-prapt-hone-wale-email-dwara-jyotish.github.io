@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Page principale -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/</loc>
-        <lastmod>2024-12-09</lastmod>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/</loc>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- Services proposés -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/tarifs</loc>
-        <lastmod>2024-12-09</lastmod>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/services/</loc>
+        <lastmod>2025-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Page de tarification -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/tarifs/</loc>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Page FAQ -->
     <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/contact</loc>
-        <lastmod>2024-12-09</lastmod>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/faq/</loc>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Page de contact -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/contact/</loc>
+        <lastmod>2025-01-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Version multilingue (exemple avec anglais et français) -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/</loc>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://clairvoyancemedium.github.io/en-version"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/fr-version"/>
+        <lastmod>2025-01-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
     </url>
 </urlset>
