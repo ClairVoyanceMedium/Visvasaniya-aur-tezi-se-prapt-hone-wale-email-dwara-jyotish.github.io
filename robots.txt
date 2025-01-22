@@ -1,42 +1,38 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# robots.txt for https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/
+
 User-agent: *
-Disallow: /admin/
-Disallow: /tmp/
 Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /cgi-bin/
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
-
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
+# Allow essential assets for rendering
 Allow: /css/
 Allow: /js/
 Allow: /images/
 
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
+# Sitemap location for search engines
+Sitemap: https://clairvoyancemedium.github.io/Visvasaniya-aur-tezi-se-prapt-hone-wale-email-dwara-jyotish.github.io/sitemap.xml
 
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
+# Crawl delay for search engines (reduce server load)
+Crawl-delay: 5
 
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# Specific instructions for major search engines
 User-agent: Googlebot
 Allow: /
-User-agent: AdsBot-Google
-Allow: /
+
 User-agent: Bingbot
 Allow: /
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
+User-agent: Yandex
 Disallow: /
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+# Prevent indexing of duplicate and irrelevant pages
+Noindex: /tags/
+Noindex: /search/
+Noindex: /login/
+Noindex: /register/
+
+# Optimized directives for better SEO
+User-agent: *
+Request-rate: 1/1s
